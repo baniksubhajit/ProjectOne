@@ -1,0 +1,38 @@
+{
+    "chart": {
+        "caption": "Track Test Report",
+        "subCaption": "Report on variations of power delivery,RPM,Speed",
+        "xAxisName": "Time(in Seconds)",
+	"yAxisName": ["Speed","Power","RPM"]
+	
+        
+    },
+    "data": [
+        {
+            "x-axis": "1",
+            "y-axis":["10","200","6000"]
+
+        },
+        {
+           "x-axis": "3",
+            "y-axis":["30","230","8000"]
+        },
+        {
+            "x-axis": "5",
+            "y-axis":["50","280","10000"]
+        },
+        {
+            "x-axis": "10",
+            "y-axis":["90","350","11000"]
+        },
+        {
+            "x-axis": "30",
+            "y-axis":["120","420","12000"]
+        },
+        {
+            "x-axis": "60",
+            "y-axis":["150","400","15000"]
+        }
+        
+    ]
+}
