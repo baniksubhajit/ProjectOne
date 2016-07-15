@@ -8,7 +8,77 @@
     },
     "data": [
         {
-        	"xAxisName": "Time(in Seconds)",
+        	"xAxisName": "Time(in Seconds{
+
+		        "chart": {
+		            "caption": "Track Test Report",
+		            "subcaption": "Report Data",
+		            width: 300,
+		            height: 200
+		        },
+
+		        "data": [
+
+		             {
+		                time: "2018-06",
+		                yAxis2: 33,
+		                yAxis3: 765
+		            },
+		            {
+		                time: "2016-06",
+		                yAxis3: 3542
+		            },
+		             {
+		                time: "2015-02",
+		                yAxis1: 700,
+		                yAxis2: 44
+		            }, {
+		                time: "2013-05",
+		                yAxis1: 31,
+		                yAxis2: 526,
+		                yAxis3: 93
+		            },
+		            {
+		                time: "2012-06",
+		                yAxis1: 1
+		            },
+		            {
+		                time: "2009-05",
+		                yAxis1: 3,
+		                yAxis2: 256,
+		                yAxis3: 683
+		            },
+		            {
+		                time: "2007-05",
+		                yAxis1: 51,
+		                yAxis2: 5,
+		                yAxis3: 953
+		            },
+		            {
+		                time: "2004-05",
+		                yAxis1: 69,
+		                yAxis4: 956,
+		                yAxis3: 3
+		            },
+		            {
+		                time: "2003-05",
+		                yAxis1: 11,
+		                yAxis2: 560,
+		                yAxis3: 953
+		            },
+{
+		                time: "2001-05",
+		                yAxis1: 69,
+		                yAxis2: 956,
+		                yAxis4: 3,
+		            },
+
+
+
+
+
+		        ]
+		    };)",
             "x-axis": "1|3|5|10|30|60",
         },
         {
