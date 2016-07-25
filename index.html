@@ -10,11 +10,13 @@
                     "caption": "Track Test Report",
                     "subcaption": "Report Data",
                     width: 300,
-                    height: 200
+                    height: 200,
+                    type:"column"
                 },
 
                 "data": [
-
+                    
+    
                      {
                         time: "2018-06",
                         Acceleration: 33,
@@ -22,7 +24,7 @@
                     },
                     {
                         time: "2016-06",
-                        Power: 3542
+                        Power: 3402
                     },
                      {
                         time: "2015-02",
@@ -42,7 +44,7 @@
                         time: "2009-05",
                         Torque: 3,
                         Acceleration: 256,
-                        Power: 683
+                        Power: 68
                     },
                     {
                         time: "2007-05",
@@ -54,23 +56,25 @@
                         time: "2004-05",
                         Torque: 69,
                         RPM: 9,
-                        Power: 3,
+                        Power: 300,
                         Speed:-1
                     },
                     {
                         time: "2003-05",
                         Torque: 11,
-                        Acceleration: 560,
+                        Acceleration: 56,
                         Power: 953,
                         Speed:-10
                     },
-{
+                    {
                         time: "2001-05",
                         Torque: 69,
                         Acceleration: 1056,
                         RPM: 3,
                         Speed:10
                     },
+                    
+
 
 
 
@@ -78,6 +82,14 @@
 
                 ]
             };
+            mydata.data.sort(function(a,b){
+                c = new Date(a)
+                d = new Date(b)
+                e = c.getFullYear() * 12 + c.getFullMonth();
+                f = d.getFullYear() * 12 + d.getFulMonth();
+                return e - f;
+            });
+
 
             //  console.log(Object.keys(mydata.data));
         </script>
@@ -86,8 +98,10 @@
     </head>
     <body>
         <div id="chart-cont"></div>
+         <script src="render2.js"></script>
+        <script src="script2.js"></script>
+       
 
-        <script src="script.js"></script>
 
     </body>
 </html>
